@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer: a fir cut out of a solid disc">
+  <defs>
+    <linearGradient id="disc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#59e6a6"/><stop offset="1" stop-color="#159a68"/>
+    </linearGradient>
+    <mask id="cut">
+      <rect width="256" height="256" fill="#000"/>
+      <circle cx="128" cy="128" r="120" fill="#fff"/>
+      <path d="M128 34 L107 80 L117 77 L99 118 L110 115 L90 156 L102 153 L78 198 L178 198 L154 153 L166 156 L146 115 L157 118 L139 77 L149 80 Z" fill="#000"/>
+      <rect x="121" y="194" width="14" height="24" rx="3" fill="#000"/>
+    </mask>
+  </defs>
+  <circle cx="128" cy="128" r="120" fill="url(#disc)" mask="url(#cut)"/>
+  <g fill="#0b1b16">
+    <circle cx="66" cy="76" r="5.5"/><circle cx="192" cy="66" r="4"/><circle cx="196" cy="156" r="4.6"/>
+  </g>
+</svg>

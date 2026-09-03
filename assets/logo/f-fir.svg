@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer: a fir silhouette">
+  <defs>
+    <linearGradient id="fir2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ff0b2"/><stop offset="1" stop-color="#158a5c"/>
+    </linearGradient>
+  </defs>
+  <path d="M128 22 L105 74 L116 71 L96 116 L108 113 L86 158 L99 155 L72 204 L184 204 L157 155 L170 158 L148 113 L160 116 L140 71 L151 74 Z" fill="url(#fir2)"/>
+  <rect x="120" y="200" width="16" height="28" rx="3" fill="#158a5c"/>
+  <g fill="#f5d78e"><circle cx="128" cy="12" r="6"/></g>
+  <g fill="#7fb9ff"><circle cx="48" cy="76" r="3"/><circle cx="208" cy="76" r="3"/><circle cx="72" cy="140" r="2.2"/><circle cx="184" cy="140" r="2.2"/></g>
+</svg>

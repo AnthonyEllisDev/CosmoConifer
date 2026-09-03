@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer mark: a conifer drawn as a constellation">
+  <g stroke="#3ddc97" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M128 34 L96 96 L128 82 L160 96 Z"/>
+    <path d="M128 82 L78 148 L128 130 L178 148 Z"/>
+    <path d="M128 130 L62 202 L128 182 L194 202 Z"/>
+    <path d="M128 182 L128 222"/>
+  </g>
+  <g fill="#eafff5">
+    <circle cx="128" cy="34" r="7"/><circle cx="96" cy="96" r="5.5"/><circle cx="160" cy="96" r="5.5"/>
+    <circle cx="78" cy="148" r="5.5"/><circle cx="178" cy="148" r="5.5"/>
+    <circle cx="62" cy="202" r="5.5"/><circle cx="194" cy="202" r="5.5"/>
+    <circle cx="128" cy="222" r="6"/>
+  </g>
+  <g fill="#f5d78e">
+    <circle cx="128" cy="82" r="4.5"/><circle cx="128" cy="130" r="4.5"/><circle cx="128" cy="182" r="4.5"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer mark: a conifer in a hexagonal badge">
+  <defs>
+    <linearGradient id="gd" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ff0b0"/><stop offset="1" stop-color="#22a074"/>
+    </linearGradient>
+  </defs>
+  <path d="M128 12 L212 60 L212 156 L128 204 L44 156 L44 60 Z"
+        fill="#0c1319" stroke="url(#gd)" stroke-width="7" stroke-linejoin="round"/>
+  <g fill="url(#gd)">
+    <path d="M128 44 L152 90 L104 90 Z"/>
+    <path d="M128 76 L164 128 L92 128 Z"/>
+    <path d="M128 108 L176 166 L80 166 Z"/>
+  </g>
+  <rect x="121" y="162" width="14" height="24" rx="3" fill="#22a074"/>
+  <circle cx="128" cy="228" r="7" fill="#f5d78e"/>
+  <path d="M96 228 H112 M144 228 H160" stroke="#7fb9ff" stroke-width="5" stroke-linecap="round"/>
+</svg>

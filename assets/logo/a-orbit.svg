@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer mark: a conifer inside an orbit">
+  <defs>
+    <linearGradient id="ga" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ff0b0"/><stop offset="1" stop-color="#1d8a63"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#7fb9ff" stroke-width="5" stroke-linecap="round" opacity=".85">
+    <path d="M40 148 A 92 46 -18 0 1 216 108" />
+  </g>
+  <g fill="url(#ga)">
+    <path d="M128 30 L160 92 L96 92 Z"/>
+    <path d="M128 74 L172 140 L84 140 Z"/>
+    <path d="M128 116 L186 194 L70 194 Z"/>
+  </g>
+  <rect x="120" y="190" width="16" height="30" rx="4" fill="#1d8a63"/>
+  <g fill="none" stroke="#7fb9ff" stroke-width="5" stroke-linecap="round">
+    <path d="M216 108 A 92 46 -18 0 1 40 148" />
+  </g>
+  <circle cx="52" cy="140" r="9" fill="#f5d78e"/>
+</svg>

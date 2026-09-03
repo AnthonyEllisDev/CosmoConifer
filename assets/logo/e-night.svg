@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer: a fir on a rise under stars, in a circle">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="34%" r="72%">
+      <stop offset="0" stop-color="#16304a"/><stop offset="1" stop-color="#050b14"/>
+    </radialGradient>
+    <linearGradient id="fir" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fe0a4"/><stop offset="1" stop-color="#177a55"/>
+    </linearGradient>
+    <clipPath id="cir"><circle cx="128" cy="128" r="122"/></clipPath>
+  </defs>
+  <circle cx="128" cy="128" r="122" fill="url(#sky)"/>
+  <g clip-path="url(#cir)">
+    <g fill="#dfefff">
+      <circle cx="52" cy="56" r="2.6" opacity=".85"/><circle cx="90" cy="34" r="1.7" opacity=".55"/>
+      <circle cx="196" cy="48" r="2.3" opacity=".8"/><circle cx="222" cy="92" r="1.6" opacity=".5"/>
+      <circle cx="36" cy="112" r="1.8" opacity=".55"/><circle cx="164" cy="26" r="1.5" opacity=".45"/>
+      <circle cx="212" cy="152" r="2" opacity=".6"/><circle cx="30" cy="168" r="1.5" opacity=".45"/>
+      <circle cx="128" cy="14" r="1.6" opacity=".5"/>
+    </g>
+    <circle cx="196" cy="48" r="7" fill="#dfefff" opacity=".14"/>
+    <circle cx="52" cy="56" r="8" fill="#dfefff" opacity=".12"/>
+    <ellipse cx="128" cy="270" rx="136" ry="78" fill="#0f2f25"/>
+    <ellipse cx="128" cy="280" rx="98" ry="72" fill="#17462f"/>
+    <path d="M128 22 L105 74 L116 71 L96 116 L108 113 L86 158 L99 155 L72 204 L184 204 L157 155 L170 158 L148 113 L160 116 L140 71 L151 74 Z" fill="url(#fir)"/>
+    <rect x="120" y="200" width="16" height="26" rx="3" fill="#177a55"/>
+  </g>
+  <circle cx="128" cy="128" r="122" fill="none" stroke="#2c6f57" stroke-width="6"/>
+</svg>

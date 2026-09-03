@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer: a fir on a tilted orbit">
+  <defs>
+    <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ff0b2"/><stop offset="1" stop-color="#158a5c"/>
+    </linearGradient>
+  </defs>
+  <path d="M22.8 113.7 A 112 44 20 0 1 233.2 190.3"
+        fill="none" stroke="#3f6f8f" stroke-width="10" stroke-linecap="butt" opacity=".8"/>
+  <path d="M128 26 L107 74 L117 71 L99 114 L110 111 L89 154 L101 151 L76 198 L180 198 L155 151 L167 154 L146 111 L157 114 L139 71 L149 74 Z" fill="url(#fg)"/>
+  <rect x="121" y="194" width="14" height="24" rx="3" fill="#158a5c"/>
+  <path d="M233.2 190.3 A 112 44 20 0 1 22.8 113.7"
+        fill="none" stroke="#7fb9ff" stroke-width="10" stroke-linecap="butt"/>
+  <circle cx="22.8" cy="113.7" r="13" fill="#f5d78e"/>
+</svg>

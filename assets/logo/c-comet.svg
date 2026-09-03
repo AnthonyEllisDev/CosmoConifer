@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="CosmoConifer mark: a conifer as the head of a comet">
+  <defs>
+    <linearGradient id="gc" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ddc97" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#3ddc97" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#7ff3c2" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="gc2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7ff3c2"/><stop offset="1" stop-color="#1d8a63"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 236 C 74 224 116 196 146 158 L 170 186 C 132 214 82 232 18 236 Z" fill="url(#gc)"/>
+  <g fill="url(#gc2)" transform="rotate(16 146 118)">
+    <path d="M146 40 L172 92 L120 92 Z"/>
+    <path d="M146 76 L182 132 L110 132 Z"/>
+    <path d="M146 112 L194 176 L98 176 Z"/>
+    <rect x="138" y="172" width="16" height="24" rx="4"/>
+  </g>
+  <circle cx="204" cy="48" r="6" fill="#f5d78e"/>
+  <circle cx="56" cy="64" r="4" fill="#eafff5" opacity=".8"/>
+  <circle cx="90" cy="34" r="3" fill="#eafff5" opacity=".55"/>
+</svg>
