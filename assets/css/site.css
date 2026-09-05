@@ -131,6 +131,7 @@ section{padding:74px 0}
 .card h3{margin-bottom:8px}
 .card p{color:var(--dim);font-size:.95rem;margin:0}
 .card.quiet{border-style:dashed;background:transparent}
+.cards.one{grid-template-columns:minmax(0,560px)}
 
 /* ── fact grid ─────────────────────────────────────────────────────────── */
 /* Fixed column counts rather than auto-fit: an odd number of trailing cells
