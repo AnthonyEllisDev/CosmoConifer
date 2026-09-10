@@ -122,6 +122,9 @@ section{padding:74px 0}
   border-color:transparent;color:#04120c;
 }
 .btn-primary:hover{filter:brightness(1.07)}
+/* Deliberately not the green primary: this is the one button that leaves the site. */
+.btn-steam{background:linear-gradient(180deg,#4d90d8,#2b5f9e);border-color:transparent;color:#f4f9ff}
+.btn-steam:hover{filter:brightness(1.09)}
 .btn .arrow{transition:transform .15s}
 .btn:hover .arrow{transform:translateX(3px)}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
