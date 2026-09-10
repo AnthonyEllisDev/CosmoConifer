@@ -102,7 +102,8 @@ section{padding:74px 0}
 }
 .mark:hover{text-decoration:none;color:#fff}
 .mark img{width:32px;height:32px}
-.navlinks{display:flex;align-items:center;gap:24px}
+/* wrap, or on a 320px screen the last link drags the whole document sideways */
+.navlinks{display:flex;align-items:center;gap:24px;flex-wrap:wrap;justify-content:flex-end}
 .navlinks a{color:var(--dim);font-size:.93rem;font-weight:500}
 .navlinks a:hover{color:var(--txt);text-decoration:none}
 .navlinks a.on{color:var(--green)}
@@ -125,6 +126,22 @@ section{padding:74px 0}
 /* Deliberately not the green primary: this is the one button that leaves the site. */
 .btn-steam{background:linear-gradient(180deg,#4d90d8,#2b5f9e);border-color:transparent;color:#f4f9ff}
 .btn-steam:hover{filter:brightness(1.09)}
+
+/* Valve's official widget. Fixed 646x190 by design, so it gets a max-width box
+   rather than a fluid one; below that the iframe scrolls internally instead of
+   pushing the document sideways. loading="lazy" keeps the third-party request
+   off the critical path. */
+.steamwidget{position:relative;max-width:646px;margin:26px 0 0;min-height:190px;
+  border:1px solid var(--line);border-radius:6px;background:var(--panel);overflow:hidden}
+/* Sits underneath the frame. If Valve's widget loads it covers this; if a blocker
+   or a bad network kills it, the visitor gets a sentence and a link instead of a void. */
+/* Block, not flex: a flex container turns the text and the link into separate
+   flex items and eats the space between them. */
+.steamwidget .swfall{position:absolute;left:0;right:0;top:50%;
+  transform:translateY(-50%);text-align:center;padding:0 24px;margin:0;
+  font-size:.93rem;color:var(--dim)}
+.steamwidget iframe{position:relative;z-index:1;display:block;width:100%;
+  max-width:646px;height:190px;border:0}
 .btn .arrow{transition:transform .15s}
 .btn:hover .arrow{transform:translateX(3px)}
 .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
@@ -176,8 +193,9 @@ section{padding:74px 0}
 .factgrid{
   display:grid;gap:1px;background:var(--line);
   border:1px solid var(--line);border-radius:var(--rad);overflow:hidden;
-  grid-template-columns:repeat(2,1fr);margin:32px 0 0;
+  grid-template-columns:1fr;margin:32px 0 0;
 }
+@media (min-width:420px){ .factgrid{grid-template-columns:repeat(2,1fr)} }
 @media (min-width:720px){ .factgrid{grid-template-columns:repeat(3,1fr)} }
 .fact{background:var(--panel);padding:16px 18px}
 .fact dt{font-family:var(--mono);font-size:.71rem;letter-spacing:.15em;text-transform:uppercase;color:var(--dim-2);margin-bottom:5px}
@@ -194,7 +212,9 @@ section{padding:74px 0}
 .prose > :first-child{margin-top:0}
 
 /* ── gallery ───────────────────────────────────────────────────────────── */
-.shots{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));margin-top:30px}
+/* min() so the 420px floor collapses on narrow screens instead of forcing
+   the document wider than the viewport. */
+.shots{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));margin-top:30px}
 figure{margin:0}
 .shot{border:1px solid var(--line);border-radius:var(--rad);overflow:hidden;background:var(--panel)}
 .shot img{width:100%}

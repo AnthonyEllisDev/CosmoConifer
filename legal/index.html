@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy and terms — CosmoConifer</title>
-<meta name="description" content="What this site does and does not collect, and the terms it is published under. No cookies, no analytics, no tracking.">
+<meta name="description" content="What this site does and does not collect, and the terms it is published under. No analytics, no tracking, and one third party: Valve's Steam widget.">
 <link rel="canonical" href="https://cosmoconifer.com/legal/">
 <meta name="theme-color" content="#05090c">
 <meta name="robots" content="index, follow">
@@ -33,11 +33,12 @@
     <p class="eyebrow">Privacy and terms</p>
     <h1>The short version: this site doesn't collect anything</h1>
     <p class="lede">
-      No cookies, no analytics, no tracking, no advertising, and nothing loaded from anyone
-      else's servers. If you email me, I have your email. That's the whole picture, and the
-      rest of this page just says it more carefully.
+      No analytics, no tracking, no advertising, and no cookies set by this site. Two pages
+      embed Steam's official widget, which means Valve sees those visits. If you email me, I
+      have your email. That's the whole picture, and the rest of this page says it more
+      carefully.
     </p>
-    <p class="caption">Last updated 3 September 2026.</p>
+    <p class="caption">Last updated 10 September 2026.</p>
   </section>
 
   <hr class="rule">
@@ -55,19 +56,36 @@
 
       <h3>What it does not do</h3>
       <ul>
-        <li>It sets no cookies of any kind, including functional ones.</li>
+        <li>It sets no cookies of its own, including functional ones.</li>
         <li>It writes nothing to local storage or session storage.</li>
         <li>There is no analytics package, no tracking pixel and no fingerprinting.</li>
         <li>There is no advertising, and no data about you is sold or shared, because none is
           gathered to sell.</li>
-        <li>Nothing on these pages is loaded from a third party. The typeface, the images and
-          the stylesheet are all served from this domain.</li>
+        <li>Apart from the Steam widget described below, nothing on these pages is loaded from
+          anyone else. The typeface, the images and the stylesheet all come from this domain.</li>
       </ul>
-      <p>
-        You can check all of that. Open your browser's developer tools, look at the network
-        tab and the storage tab, and reload any page on this site.
-      </p>
 
+      <h3>The Steam widget</h3>
+      <p>
+        The home page and the Solvane page embed Valve's official Steam widget, so you can see
+        the store listing and wishlist the game without leaving. It is a frame served by
+        store.steampowered.com, and it loads as you scroll to it rather than waiting for you to
+        click.
+      </p>
+      <p>
+        That means Valve receives a request from your browser on those two pages: your IP
+        address, your browser's user agent, and the fact that the request came from
+        cosmoconifer.com. Valve may also read or set its own cookies inside that frame, and if
+        you are signed in to Steam it will recognise you there, exactly as the Steam store does.
+        That frame is Valve's, not mine. I have no access to any of it and I receive no report
+        of who saw it or what they did. What Valve does with it is covered by the
+        <a href="https://store.steampowered.com/privacy_agreement/">Valve Privacy Policy</a>.
+      </p>
+      <p>
+        Nothing else on this site behaves that way, and the widget is not load-bearing. Every
+        "Wishlist on Steam" button here is an ordinary link to the same store page, so if your
+        browser or an extension blocks the widget you lose nothing but the picture.
+      </p>
       <h3>What happens anyway, because of hosting</h3>
       <p>
         This site is hosted on GitHub Pages. Like any web server, GitHub's receives a request
@@ -113,9 +131,8 @@
 
       <h3>Changes</h3>
       <p>
-        If this site ever gains analytics, a form, an embedded video or anything else that
-        changes the answers above, this page gets updated first and the date at the top
-        changes with it.
+        If this site ever gains analytics, a form, another embed or anything else that changes
+        the answers above, this page gets updated first and the date at the top changes with it.
       </p>
     </div>
   </section>
